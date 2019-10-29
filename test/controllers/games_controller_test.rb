@@ -1,5 +1,7 @@
 require 'test_helper'
 
+# system testing
+
 class GamesControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
     get games_new_url
